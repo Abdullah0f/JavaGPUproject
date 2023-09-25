@@ -6,7 +6,7 @@ package gpuproject;
 
 public class GPUproject {
     public static void main(String[] args) {
-        new ComboList();
+        new Lecture3();
     }
     
 }

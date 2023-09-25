@@ -43,6 +43,7 @@ public class ComboList extends JFrame {
         scrollPane.setViewportView(list);
         list.setVisibleRowCount(3);
         list.addListSelectionListener(new ListSelected());
+        // use handler class not his approach, what is handler class? idk dr said it
         combo.addItemListener(new ItemListener() {
             @Override
             public void itemStateChanged(ItemEvent e) {
