@@ -4,9 +4,16 @@
  */
 package gpuproject;
 
+import javax.swing.JFrame;
+
 public class GPUproject {
     public static void main(String[] args) {
-        new Lecture4_4();
+        // create jframe since lec5_graphics extends JPanel
+        JFrame f = new JFrame("Lec5_graphics");
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.setSize(400, 600);
+        f.setVisible(true);
+        f.add(new Lec5_graphics());
     }
     
 }
