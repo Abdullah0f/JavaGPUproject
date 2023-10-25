@@ -6,14 +6,22 @@ package gpuproject;
 
 import javax.swing.JFrame;
 
-public class GPUproject {
+public class GPUproject extends JFrame {
+
+    public GPUproject() {
+        setLayout(null);
+        Lecture6 l = new Lecture6();
+        l.setBounds(0, 0, 400, 600);
+        add(l);
+        Lecture6_2 l2 = new Lecture6_2();
+        l2.setBounds(400, 0, 400, 600);
+        add(l2);
+    }
     public static void main(String[] args) {
-        // create jframe since lec5_graphics extends JPanel
-        JFrame f = new JFrame("Lec5_graphics");
-        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        f.setSize(400, 600);
-        f.setVisible(true);
-        f.add(new Lec5_graphics());
+        GPUproject x = new GPUproject();
+        x.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        x.setSize(800, 600);
+        x.setVisible(true);
     }
     
 }
