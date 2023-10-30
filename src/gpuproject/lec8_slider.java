@@ -47,3 +47,20 @@ public class lec8_slider extends JPanel {
         g2d.translate(-transalteX, 0);
     }
 }
+
+// // main should be:
+// public class GPUproject extends JFrame {
+
+// public GPUproject() {
+// setSize(400, 400);
+// setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+// setVisible(true);
+
+// lec8_slider p1 = new lec8_slider();
+// add(p1, BorderLayout.CENTER);
+// }
+// public static void main(String[] args) {
+// GPUproject frame = new GPUproject();
+// }
+
+// }

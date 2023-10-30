@@ -12,18 +12,19 @@ import java.awt.Toolkit;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class GPUproject extends JFrame {
+public class GPUproject {
 
-    public GPUproject() {
-        setSize(400, 400);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setVisible(true);
+    // public GPUproject() {
+    // setSize(400, 400);
+    // setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    // setVisible(true);
 
-        lec8_slider p1 = new lec8_slider();
-        add(p1, BorderLayout.CENTER);
-    }
+    // lec8_slider p1 = new lec8_slider();
+    // add(p1, BorderLayout.CENTER);
+    // }
     public static void main(String[] args) {
-        GPUproject frame = new GPUproject();
+        lec9_menu p1 = new lec9_menu();
+
     }
     
 }
