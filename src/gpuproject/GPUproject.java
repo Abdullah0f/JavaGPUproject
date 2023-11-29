@@ -23,7 +23,7 @@ public class GPUproject {
     // add(p1, BorderLayout.CENTER);
     // }
     public static void main(String[] args) {
-        lec9_menu p1 = new lec9_menu();
+        lec11_DBQuiz db = new lec11_DBQuiz();
 
     }
     
